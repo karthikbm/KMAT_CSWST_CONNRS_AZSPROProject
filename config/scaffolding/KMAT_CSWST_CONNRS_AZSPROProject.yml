@@ -8,7 +8,19 @@ packages:
   gitUsername: karthikbm
   gitBranch: main
 - name: ConnectorTest
+  version: "1.0"
   gitServerName: Karthik
   gitUrl: https://github.com/karthikbm
   gitUsername: karthikbm
   gitBranch: main
+services:
+- serviceName: project.kmat_cswst_connrs_azspro.integrations:addints_jun20
+  packages:
+  - name: KMAT_CSWST_CONNRS_AZSPROProject
+    version: "1.0"
+  - name: ConnectorTest
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.968
