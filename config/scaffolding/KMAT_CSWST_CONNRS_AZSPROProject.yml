@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/karthikbm/KMAT_CSWST_CONNRS_AZSPROProject
   gitUsername: karthikbm
   gitBranch: main
+- name: ConnectorTest
+  gitServerName: Karthik
+  gitUrl: https://github.com/karthikbm
+  gitUsername: karthikbm
+  gitBranch: main
